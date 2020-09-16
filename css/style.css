@@ -1,0 +1,146 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    margin: auto;
+}
+
+.header-slider {
+    width: auto;
+}
+
+.section-menu {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    background-image: url(../img/Mask-Group-8.png);
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.carousel-inner {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 634px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#carousel-style li {
+    width: 16px;
+    height: 16px;
+    bottom: 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#carousel-style .active {
+    background-color: #187BC1;
+}
+
+
+
+#carousel-style li a:hover {
+    background: #333;
+    background: rgba(0, 0, 0, .7)
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #187BC1;
+}
+
+span {
+    font-size: 16px;
+    color: #888888;
+}
+
+.logo {
+    /* width: 80%; */
+    margin-top: 13px;
+}
+
+.title {
+    margin-left: 42px;
+    margin-top: 42px;
+}
+
+.btn-go {
+    margin-left: 160px;
+    margin-top: 30px;
+    right: 0px;
+    float: right;
+    height: 60px;
+    width: 220px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1025px) {
+
+    body {
+        margin: 0 auto;
+        text-align: center;
+        background-color: #fff;
+    }
+
+    .carousel-inner {
+        height: auto;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #carousel-style li {
+        bottom: 260px;
+        width: 11px;
+        height: 11px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .section-menu {
+        position: absolute;
+        bottom: auto;
+        left: auto;
+        right: auto;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        background-color: #ffffff;
+    }
+
+    .logo {
+        width: auto;
+        height: 120px;
+        margin: 0 auto;
+
+    }
+
+    .col-sm-12 {
+        height: 120px;
+        text-align: center;
+    }
+
+    .title {
+        margin-left: auto;
+        margin-top: auto;
+        height: 100;
+    }
+
+    .btn-go {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        padding: 0 auto;
+        right: auto;
+        float: none;
+        height: 60px;
+        width: 220px;
+        color: #ffffff;
+    }
+
+}
